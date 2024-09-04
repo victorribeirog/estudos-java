@@ -10,6 +10,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>ContaBanco</module>
+        <module>ProcessoSeletivo</module>
+        <module>Desafio-Controle-Fluxe</module>
     </modules>
 
     <properties>

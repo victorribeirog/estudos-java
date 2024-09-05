@@ -12,6 +12,7 @@
         <module>ContaBanco</module>
         <module>ProcessoSeletivo</module>
         <module>Desafio-Controle-Fluxe</module>
+        <module>Lanchonete</module>
     </modules>
 
     <properties>

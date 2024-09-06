@@ -13,6 +13,9 @@
         <module>ProcessoSeletivo</module>
         <module>Desafio-Controle-Fluxe</module>
         <module>Lanchonete</module>
+        <module>Escola</module>
+        <module>Cadastro</module>
+        <module>Brasil</module>
     </modules>
 
     <properties>

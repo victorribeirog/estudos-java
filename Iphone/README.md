@@ -1,27 +1,43 @@
 ```mermaid
 classDiagram
+    class iPhone {
+        - String numeroAtual
+        - String musicaAtual
+        - String paginaAtual
+        + tocar()
+        + pausar()
+        + selecionarMusica(String musica)
+        + ligar(String numero)
+        + atender()
+        + iniciarCorreioVoz()
+        + exibirPagina(String url)
+        + adicionarNovaAba()
+        + atualizarPagina()
+    }
+
     class ReprodutorMusical {
-        +tocar()
-        +pausar()
-        +selecionarMusica(String musica)
+        <<interface>>
+        + tocar()
+        + pausar()
+        + selecionarMusica(String musica)
     }
 
     class AparelhoTelefonico {
-        +ligar(String numero)
-        +atender()
-        +iniciarCorreioVoz()
+        <<interface>>
+        + ligar(String numero)
+        + atender()
+        + iniciarCorreioVoz()
     }
 
     class NavegadorInternet {
-        +exibirPagina(String url)
-        +adicionarNovaAba()
-        +atualizarPagina()
+        <<interface>>
+        + exibirPagina(String url)
+        + adicionarNovaAba()
+        + atualizarPagina()
     }
 
-    class iPhone {
-    }
+    iPhone --|> ReprodutorMusical
+    iPhone --|> AparelhoTelefonico
+    iPhone --|> NavegadorInternet
 
-    iPhone --> ReprodutorMusical
-    iPhone --> AparelhoTelefonico
-    iPhone --> NavegadorInternet
 ```

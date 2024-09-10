@@ -16,9 +16,10 @@
         <module>Escola</module>
         <module>Cadastro</module>
         <module>Brasil</module>
-        <module>Corrida</module>
         <module>AppMSM</module>
         <module>Iphone</module>
+        <module>ListaTarefa</module>
+        <module>CarrinhoCompras</module>
     </modules>
 
     <properties>

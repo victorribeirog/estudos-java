@@ -20,6 +20,11 @@
         <module>Iphone</module>
         <module>ListaTarefa</module>
         <module>CarrinhoCompras</module>
+        <module>CatalogoLivro</module>
+        <module>OrdenacaoPessoas</module>
+        <module>ConjuntoConvidados</module>
+        <module>AgendaContato</module>
+        <module>CadastroProduto</module>
     </modules>
 
     <properties>

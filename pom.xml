@@ -25,6 +25,9 @@
         <module>ConjuntoConvidados</module>
         <module>AgendaContato</module>
         <module>CadastroProduto</module>
+        <module>AgendaContatoMap</module>
+        <module>EstoqueProduto</module>
+        <module>AgendaEventos</module>
     </modules>
 
     <properties>

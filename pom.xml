@@ -28,6 +28,7 @@
         <module>AgendaContatoMap</module>
         <module>EstoqueProduto</module>
         <module>AgendaEventos</module>
+        <module>Banco</module>
     </modules>
 
     <properties>

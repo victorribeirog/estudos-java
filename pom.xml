@@ -29,6 +29,7 @@
         <module>EstoqueProduto</module>
         <module>AgendaEventos</module>
         <module>Banco</module>
+        <module>Desafio-POO</module>
     </modules>
 
     <properties>

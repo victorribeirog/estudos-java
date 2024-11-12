@@ -30,6 +30,7 @@
         <module>AgendaEventos</module>
         <module>Banco</module>
         <module>Desafio-POO</module>
+        <module>DesignPatterns</module>
     </modules>
 
     <properties>
